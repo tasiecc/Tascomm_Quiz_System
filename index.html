@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tascomm Quiz App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-dark text-light text-center py-4">
+        <img src="images/logo.png" alt="Quiz Logo" class="img-fluid">
+        <h1 class="mt-2">Tascomm Simple Quiz Solution</h1>
+    </header>
+    <main class="container my-5">
+        <div id="quiz-container" class="bg-light p-4 rounded shadow">
+            <h2 class="mb-4">Question <span id="question-number">1</span>:</h2>
+            <p id="question-text">This is a sample question.</p>
+            <div id="options" class="mt-4">
+                <button class="btn btn-light option">Option 1</button>
+                <button class="btn btn-light option">Option 2</button>
+                <button class="btn btn-light option">Option 3</button>
+                <button class="btn btn-light option">Option 4</button>
+            </div>
+            <div class="d-flex justify-content-between mt-4">
+                <button id="prev-button" class="btn btn-secondary mr-3"><span>&#9664;</span> Previous</button>
+                <button id="next-button" class="btn btn-success">Next <span>&#9654;</span></button>
+            </div>
+        </div>
+        <div id="result-container" class="bg-light p-4 rounded shadow text-center">
+            <h2>Quiz Result</h2>
+            <p id="score" class="h3 mt-4">Score: 0</p>
+            <button id="submit-button" class="btn btn-primary mt-4">Submit Quiz</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
