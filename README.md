@@ -3,6 +3,8 @@ Overview
 This is a simple quiz web application built using HTML, CSS, JavaScript and Bootstrap. Users can test their knowledge by answering multiple choice questions on different topics.
 
 At the end of the quiz, users are shown their final score.
+![tascomm quiz ](https://github.com/tasiecc/Tascomm_Quiz_System/assets/64579151/8077f993-602a-45ee-8e7c-c1a4c55f4937)
+
 
 Features
 Responsive design that works on all devices
